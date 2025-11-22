@@ -19,10 +19,10 @@ Start the local JSON server (standups-mock-data.json)
 (Install json-server globally if you don’t have it)
 
 npm install -g json-server
-json-server --watch mockData.js --port 3001
+json-server --watch standups-mock-data.json --port 3001
 
 
-P.S. Check http://localhost:3001
+(P.S. Check http://localhost:3001)
  to ensure it works.
 
 Run the project
@@ -43,7 +43,7 @@ Day.js – Timezone handling (Baku UTC+4) and date formatting
 
 React-Toastify – Success/error notifications
 
-Local JSON server (mockData.js) – Mock backend for development
+Local JSON server (standups-mock-data.json) – Mock backend for development
 
 ✨ Features Implemented
 1. Standup Submission Form
@@ -96,7 +96,7 @@ Timestamps converted to Baku timezone with Day.js
 
 Form fields: user, start date, end date, reason (optional)
 
-Displays all active vacations
+Displays all active/pending vacations
 
 Advanced logic implemented:
 
@@ -136,15 +136,13 @@ Advanced features:
 
 Pagination (10 items per page)
 
-Efficient handling of 500+ standup records
-
-Highlights standups containing blocker keywords (with red border)
+Highlights standups containing blockers (with red border)
 
 Search: works in parallel with filters, can search any string
 
 🔮 Future Improvements
 
-Dynamic Dashboard: Make submissions and statuses update in real time
+Dynamic Dashboard: Currently the dashboard is static due to static mock data. In the future, connect to a live backend to make submissions and statuses update in real time.
 
 User Authentication: Each user can submit only for themselves
 
@@ -154,8 +152,6 @@ Vacation Status Editing: Update vacation statuses easily
 
 Analytics Charts: Integrate Chart.js to visualize weekly submissions, participation rates, and streaks
 
-UI/UX Improvements: Improve responsiveness, add badges, charts, and toast animations
-
 ⏱ Time Spent
 
 Approximately 10–12 hours
@@ -164,3 +160,4 @@ Approximately 10–12 hours
 
 (Requires running JSON server to see data)
 https://omarzahidli.github.io/standup-app/
+
