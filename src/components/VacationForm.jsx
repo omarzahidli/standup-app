@@ -155,6 +155,7 @@ function VacationForm({setModalOpen, vacations}) {
                                         as="select"
                                         id="userName"
                                         name="userName"
+                                        autoComplete="off"
                                         className="p-2 w-full rounded-lg border"
                                     >
                                         <option value="" disabled>

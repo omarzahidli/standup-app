@@ -144,6 +144,8 @@ function Standups() {
                                     Filter/Sort By
                                 </button>
                                 <input
+                                    id="search"
+                                    name="search"
                                     type="search"
                                     placeholder="Search..."
                                     value={search}

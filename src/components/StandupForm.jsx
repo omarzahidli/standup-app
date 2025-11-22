@@ -108,6 +108,7 @@ function StandupForm({setModalOpen, standups}) {
                                         as="select"
                                         id="username"
                                         name="username"
+                                        autoComplete="off"
                                         className="p-2 w-full rounded-lg border"
                                     >
                                         <option value="" disabled>
