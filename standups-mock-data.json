@@ -1,0 +1,228 @@
+{
+  "teamMembers": [
+    {
+      "id": "Aykhanexe",
+      "name": "Aykhan",
+      "username": "@Aykhanexe",
+      "email": "aykhan@ateshgah.az",
+      "role": "Frontend Developer"
+    },
+    {
+      "id": "ElchinGanbarov",
+      "name": "Elchin Ganbarov",
+      "username": "@ElchinGanbarov",
+      "email": "elchin@ateshgah.az",
+      "role": "Backend Developer"
+    },
+    {
+      "id": "orxanab",
+      "name": "Orkhan",
+      "username": "@orxanab",
+      "email": "orkhan@ateshgah.az",
+      "role": "Full Stack Developer"
+    },
+    {
+      "id": "RamziBalakishiyev",
+      "name": "Ramzi Balakishiyev",
+      "username": "@RamziBalakishiyev",
+      "email": "ramzi@ateshgah.az",
+      "role": "Mobile Developer"
+    },
+    {
+      "id": "VciPazl",
+      "name": "Vəsi Pazı",
+      "username": "@VciPazl",
+      "email": "vesi@ateshgah.az",
+      "role": "Mobile Developer"
+    },
+    {
+      "id": "hadiriazi",
+      "name": "Hadir",
+      "username": "@hadiriazi",
+      "email": "hadir@ateshgah.az",
+      "role": "QA Engineer"
+    },
+    {
+      "id": "mamedov585",
+      "name": "Mahammad",
+      "username": "@mamedov585",
+      "email": "mahammad@ateshgah.az",
+      "role": "DevOps Engineer"
+    },
+    {
+      "id": "mushfig_net",
+      "name": "Mushfig",
+      "username": "@mushfig_net",
+      "email": "mushfig@ateshgah.az",
+      "role": "Backend Developer"
+    },
+    {
+      "id": "Rufat",
+      "name": "Rufat",
+      "username": "@Rufat",
+      "email": "rufat@ateshgah.az",
+      "role": "Frontend Developer"
+    },
+    {
+      "id": "rahimlizakir",
+      "name": "Zakir Rahimli",
+      "username": "@rahimlizakir",
+      "email": "zakir@ateshgah.az",
+      "role": "UI/UX Designer"
+    }
+  ],
+  "standups": [
+    {
+      "id": "standup_001",
+      "userId": "Aykhanexe",
+      "userName": "Aykhan",
+      "date": "2025-11-19",
+      "timestamp": "2025-11-19T09:30:00+04:00",
+      "yesterday": "WebIMS projesində yeni özəllikləri tamamladım və kod rəylərini gözdən keçirdim.",
+      "today": "İstifadəçi interfeysi komponentlərini yeniləyəcək və unit testlər yazacam.",
+      "blockers": ""
+    },
+    {
+      "id": "standup_002",
+      "userId": "ElchinGanbarov",
+      "userName": "Elchin Ganbarov",
+      "date": "2025-11-19",
+      "timestamp": "2025-11-19T09:21:00+04:00",
+      "yesterday": "API endpoint-lərini yazdım və database migration-ları hazırladım.",
+      "today": "ASAN inteqrasiyası üzərində işləyəcəm və sanction screening funksionallığını test edəcəm.",
+      "blockers": ""
+    },
+    {
+      "id": "standup_003",
+      "userId": "orxanab",
+      "userName": "Orkhan",
+      "date": "2025-11-19",
+      "timestamp": "2025-11-19T09:18:00+04:00",
+      "yesterday": "Client Portal-da yeni xüsusiyyətlər əlavə etdim.",
+      "today": "Backend ilə frontend inteqrasiyasını tamamlayacam.",
+      "blockers": ""
+    },
+    {
+      "id": "standup_005",
+      "userId": "mamedov585",
+      "userName": "Mahammad",
+      "date": "2025-11-19",
+      "timestamp": "2025-11-19T10:15:00+04:00",
+      "yesterday": "TFS problemi düzəldib testflighta build qoydum, testserver01 də olduğu üçün xarici səbəbdən test edə bilmədim.",
+      "today": "İndi test edib buqlar varsa onlara baxacam.",
+      "blockers": ""
+    },
+    {
+      "id": "standup_006",
+      "userId": "Aykhanexe",
+      "userName": "Aykhan",
+      "date": "2025-11-20",
+      "timestamp": "2025-11-20T09:15:00+04:00",
+      "yesterday": "Unit testləri yazdım və komponent strukturunu təkmilləşdirdim.",
+      "today": "Responsive dizaynı yeniləyəcək və yeni səhifələr əlavə edəcəm.",
+      "blockers": ""
+    },
+    {
+      "id": "standup_007",
+      "userId": "ElchinGanbarov",
+      "userName": "Elchin Ganbarov",
+      "date": "2025-11-20",
+      "timestamp": "2025-11-20T09:25:00+04:00",
+      "yesterday": "ASAN inteqrasiyasında səlahiyyət idarəetməsi sistemini tamamladım.",
+      "today": "SSL sertifikat problemlərini həll edəcək və production mühitində test edəcəm.",
+      "blockers": "Production mühitində SSL sertifikat konfiqurasiyası ilə bağlı problemlər var."
+    },
+    {
+      "id": "standup_008",
+      "userId": "orxanab",
+      "userName": "Orkhan",
+      "date": "2025-11-20",
+      "timestamp": "2025-11-20T09:40:00+04:00",
+      "yesterday": "Frontend və backend inteqrasiyasını başa çatdırdım.",
+      "today": "Performans optimallaşdırması edəcək və lazy loading tətbiq edəcəm.",
+      "blockers": ""
+    },
+    {
+      "id": "standup_008",
+      "userId": "ElchinGanbarov",
+      "userName": "Elchin Ganbarov",
+      "date": "2025-11-22",
+      "timestamp": "2025-11-22T01:48:38+04:00",
+      "yesterday": "dawdawdawdad",
+      "today": "dawdadaddadawd",
+      "blockers": ""
+    },
+    {
+      "id": "standup_009",
+      "userId": "mamedov585",
+      "userName": "Mahammad",
+      "date": "2025-11-22",
+      "timestamp": "2025-11-22T17:50:19+04:00",
+      "yesterday": "dwaawdwadawdwad",
+      "today": "awwadwadwadawdwaad",
+      "blockers": ""
+    }
+  ],
+  "vacations": [
+    {
+      "id": "vacation_001",
+      "userId": "Rufat",
+      "userName": "Rufat",
+      "startDate": "2025-11-20",
+      "endDate": "2025-11-23",
+      "reason": "Personal",
+      "status": "approved"
+    },
+    {
+      "id": "vacation_002",
+      "userId": "rahimlizakir",
+      "userName": "Zakir Rahimli",
+      "startDate": "2025-11-25",
+      "endDate": "2025-12-01",
+      "reason": "Annual Leave",
+      "status": "approved"
+    },
+    {
+      "id": "vacation_003",
+      "userId": "mushfig_net",
+      "userName": "Mushfig",
+      "startDate": "2025-11-21",
+      "endDate": "2025-11-22",
+      "reason": "",
+      "status": "pending"
+    },
+    {
+      "id": "vacation_004",
+      "userId": "VciPazl",
+      "userName": "Vəsi Pazı",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-22",
+      "reason": "",
+      "status": "pending"
+    }
+  ],
+  "statistics": {
+    "totalMembers": 10,
+    "submittedToday": 3,
+    "pendingToday": 5,
+    "onVacation": 2,
+    "participationRate": 0.375,
+    "weeklyStats": [
+      {
+        "date": "2025-11-18",
+        "submitted": 6,
+        "total": 10
+      },
+      {
+        "date": "2025-11-19",
+        "submitted": 5,
+        "total": 10
+      },
+      {
+        "date": "2025-11-20",
+        "submitted": 3,
+        "total": 8
+      }
+    ]
+  }
+}
