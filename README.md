@@ -1,23 +1,33 @@
-### Standup App
+Standup App 📝
+
 A simple web application to track daily team standups, submissions, and weekly participation statistics.
 
 🚀 Setup Instructions
 
-1. Clone the repository
+Clone the repository
+
 git clone https://github.com/omarzahidli/standup-app.git
 cd standup-app
 
-3. Install dependencies
+
+Install dependencies
+
 npm install
 
-4. Start the local JSON server ( standups-mock-data.json )
-npm install -g json-server (Install json-server if you don't have) 
+
+Start the local JSON server (standups-mock-data.json)
+(Install json-server globally if you don’t have it)
+
+npm install -g json-server
 json-server --watch mockData.js --port 3001
-(P.S check http://localhost:3001 if it works or not)
 
-5. Run the project
+
+P.S. Check http://localhost:3001
+ to ensure it works.
+
+Run the project
+
 npm start
-
 
 🔧 Technologies & Libraries Used for Core Features
 
@@ -36,24 +46,23 @@ React-Toastify – Success/error notifications
 Local JSON server (mockData.js) – Mock backend for development
 
 ✨ Features Implemented
-
 1. Standup Submission Form
 
-Allows team members to submit daily standups with three fields:
+Submit daily standups with three fields:
 
 Yesterday: 10–500 characters, required
 
 Today: 10–500 characters, required
 
-Blockers: Optional, min 10 max 300 characters
+Blockers: Optional, 10–300 characters
 
-Select user from a dropdown of team members
+Select user from a dropdown
 
 Auto-captures submission timestamp
 
-Validates all inputs using Formik + Yup
+Validates inputs using Formik + Yup
 
-Success and error feedback shown via React-Toastify notifications
+Success/error feedback via React-Toastify
 
 Advanced logic implemented:
 
@@ -99,11 +108,11 @@ Validates end date is after start date
 
 Excludes vacationing members from pending submissions
 
-Success and error notifications via React-Toastify
+Success/error notifications via React-Toastify
 
 4. Standup History & Analytics
 
-Allows viewing all past standups and analyzing team performance
+View all past standups and analyze team performance
 
 Displays: Date, Team Member, Yesterday, Today, Blockers
 
@@ -131,29 +140,27 @@ Efficient handling of 500+ standup records
 
 Highlights standups containing blocker keywords (with red border)
 
-Search:
-
-Users can search any string in standups (works in parallel with filters)
-
+Search: works in parallel with filters, can search any string
 
 🔮 Future Improvements
 
-Dynamic Dashboard: Currently the dashboard is static due to static mock data. In the future, connect to a live backend to make submissions and statuses update in real time.
+Dynamic Dashboard: Make submissions and statuses update in real time
 
-User Authentication: Implement login so each user can submit only for themselves.
+User Authentication: Each user can submit only for themselves
 
-Admin Features: Add editing and deleting capabilities for admins to manage standups and vacations.
+Admin Features: Editing and deleting standups/vacations
 
-Vacation Status Editing: Allow updating vacation statuses for flexibility in team management.
+Vacation Status Editing: Update vacation statuses easily
 
-Analytics Charts: Integrate Chart.js to visualize weekly submissions, participation rates, and streaks for better team insights.
+Analytics Charts: Integrate Chart.js to visualize weekly submissions, participation rates, and streaks
 
-UI/UX Improvements: Improve responsiveness on small screens and add more visual cues (badges, charts, toast animations).
+UI/UX Improvements: Improve responsiveness, add badges, charts, and toast animations
 
 ⏱ Time Spent
 
-Approximately 10-12 hours
+Approximately 10–12 hours
 
-🌐 Live Demo (but you need to run json-server to see data)
+🌐 Live Demo
+
+(Requires running JSON server to see data)
 https://omarzahidli.github.io/standup-app/
-
